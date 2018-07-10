@@ -54,7 +54,7 @@ def main_function():
 ##		count = count + 1
 ##		time.sleep(1200)
 ##		print("exiting sleep mode at: " + time.strftime("%H:%M,%S"))
-##	sys.stdout.close()
+	sys.stdout.close()
 
 main_function()
 
