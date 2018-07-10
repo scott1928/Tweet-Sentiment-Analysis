@@ -1,0 +1,6 @@
+auth.py
+config.py
+pi/
+pics/
+*.pyc
+vaderSentiment/
