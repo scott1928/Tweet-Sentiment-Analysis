@@ -36,7 +36,7 @@ def main_function():
 				print(e.reason)
 			except StopIteration:
 				break
-		print(compound)
+		print(len(compound))
 		score = 0
 		for item in compound:
 			score = score + item
@@ -48,12 +48,8 @@ def main_function():
 		now = datetime.datetime.now()
 		used.write(str(now.strftime("%Y-%m-%d %H:%M")))
 		used.write(" ")
-		used.write(str(score))
+		used.write(str(average))
 		used.write("\n")
-##		print("entering sleep mode at: " + time.strftime("%H:%M,%S"))
-##		count = count + 1
-##		time.sleep(1200)
-##		print("exiting sleep mode at: " + time.strftime("%H:%M,%S"))
 	sys.stdout.close()
 
 main_function()
